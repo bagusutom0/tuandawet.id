@@ -227,6 +227,11 @@ body {
   margin-bottom: 3rem;
 }
 
+.gallery h2,
+.menu h2 {
+  color: #255e29;
+}
+
 .about h2 span,
 .gallery h2 span,
 .menu h2 span,
@@ -247,7 +252,7 @@ body {
   width: 70%;
   margin-left: 8rem;
   mask-image: url("../img/menu/circle.svg");
-  mask-size: 100%;
+  mask-size: 165%;
   mask-repeat: no-repeat;
   mask-position: center;
 }
@@ -711,6 +716,6 @@ footer .credit a {
   }
 
   .menu .row .menu-card img {
-    width: 35vw;
+    width: 60vw;
   }
 }
